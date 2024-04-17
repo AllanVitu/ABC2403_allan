@@ -24,3 +24,7 @@ La voiture est arreter avec les phares eteint avec la porte de conducteur ouvert
 La voiture est arreter avec les phares allumer avec la porte de conducteur fermé
 
 La voiture est arreter avec les phares eteint avec la porte de conducteur ouverte
+
+La voiture est demmarrer avec les phares allumé
+
+La voiture est arreter avec les phares eteint
