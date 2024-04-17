@@ -11,20 +11,18 @@ Rechercher les états possibles de la voiture:
 
 
 
-La voiture est demmarer avec les phares eteint avec la porte de conducteur ouverte
+La voiture est demarrer avec les phares allumer et la porte du conducteur fermé
 
-La voiture est démarrer avec les phares Allumer avec la porte du conducteur fermer
+La voiture est demarrer avec les phares allumer et la porte du conducteur ouverte
 
-La voiture est demmarer avec les phares eteint avec la porte de conducteur fermer
+la voiture est demarrer avec les phares eteint et la porte du conducteur fermé
 
+la voiture est demarrer avec les phares eteint et la porte du conducteur ouverte
 
+La voiture est arreter avec les phares eteint et la porte du conducteur fermé
 
-La voiture est arreter avec les phares eteint avec la porte de conducteur ouverte
+La voiture est arreter avec les phares eteint et la porte du conducteur ouverte
 
-La voiture est arreter avec les phares allumer avec la porte de conducteur fermé
+La voiture est arretr avec les phares allumer et la porte du conducteur fermé
 
-La voiture est arreter avec les phares eteint avec la porte de conducteur ouverte
-
-La voiture est demmarrer avec les phares allumé
-
-La voiture est arreter avec les phares eteint
+La voiture est arretr avec les phares allumer et la porte du conducteur ouverte
