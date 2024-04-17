@@ -23,3 +23,10 @@ La boite n'est vide qu'au tiere
 
 Correction:
 
+.La boite est ouverte ou fermé
+
+.La boite est fermé ou ouverte
+
+.La boite est repmlie ou vide
+
+.La boite est vide ou remplie
