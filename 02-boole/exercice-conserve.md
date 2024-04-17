@@ -1,27 +1,15 @@
 # Exercice de boite de conserve
 
-La boite est ouverte
+Considérons le cas d’une boite de conserve pour laquelle nous définissons les opérations suivantes
 
-La boite est fermé
+Ouvrir la boite
+Fermer la boite
+Remplir la boite
+Vider la boite
 
-La boite est remplie pleinement
-
-La boite est remplie à moitier
-
-La boite est remplie au quart
-
-La boite est remplie au tiere
-
-La boite est entierement vide
-
-La boite n'est vide qu'à moitié
-
-La boite n'est vide qu'au quart
-
-La boite n'est vide qu'au tiere
+Rechercher les états possibles de la boîte de conserve
 
 
-Correction:
 
 .La boite est fermé et remplie
 
