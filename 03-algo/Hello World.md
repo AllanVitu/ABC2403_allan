@@ -56,8 +56,28 @@ Exemple de fonctionnement du programme en mode Console :
 
 **VARIABLES**
 
-premierNombre
+```
+premierNombre est un NOMBRE ENTER
 
-secondNombre
+secondNombre est un NOMBRE ENTIER
 
-laMoyen
+laMoyenne est un NOMBRE DECIMAL
+```
+
+**TRAITEMENT**
+
+```
+ECRIRE "Saisir le premier nombre"
+LIRE premierNombre
+
+ECRIRE "saisir le second nombre"
+LIRE secondNombre
+
+laMoyenne <-- (premierNombre + secondNombre) / 2
+
+ECRIRE "La moyenne"
+LIRE laMoyenne
+
+FIN SI
+
+```
