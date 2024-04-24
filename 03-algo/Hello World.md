@@ -74,10 +74,15 @@ ECRIRE "saisir le second nombre"
 LIRE secondNombre
 
 laMoyenne <-- (premierNombre + secondNombre) / 2
-
-ECRIRE "La moyenne"
-LIRE laMoyenne
-
-FIN SI
+```
 
 ```
+RESULTAT
+
+ECRIRE "La moyennede ", premierNombre, " et ", secondNombre, " est ",laMoyenne, "."
+// "La moyenne de 12 et 81 est 46,5"
+FIN SI
+
+
+
+
