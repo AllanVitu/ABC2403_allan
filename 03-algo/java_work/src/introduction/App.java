@@ -15,7 +15,11 @@ public class App {
 		
 		long soldeBancaire; // Déclaration d'une varaible "soldeBancaire" de type "Nombre entier 64 bits" (valeur scolaire)
 		
+		float tailleEnMetres; // Déclaration d'une variable "tailleEnMetres" de type "Nombre réel 64 bits" (valeur scolaire)
 		
+		double tailleEnMetresPourLesTresGrands; // Déclaration d'une variable "tailleEnMetresPourLesTresGrands" de type "Nombre réel 64 bits" (valeur scolaire)
+		
+		Boolean estMajeur; //Déclaration d'une variable "estMajeur" de type "Booléen" (valeur scolaire)
 		
 	}
 
