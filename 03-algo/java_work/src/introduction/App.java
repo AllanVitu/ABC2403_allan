@@ -37,6 +37,9 @@ public class App {
 		System.out.println("Bonjour " + prenom);
 		
 		
+		// premierNombre = sc.nextInt(); = interraction avec l'interface chaise clavier pour ecrire un nombre.
+		// prenom = sc.nextLine(); = interraction avec l'interface chaise clavier pour ecrire un chaine de crarractères
+		
 	}
 
 }
