@@ -1,23 +1,22 @@
-# Exercice 1.4 : Calcul de l’aire et du volume d’une sphère
-Lire le rayon R d’une sphère puis calculer et afficher :
+VARIABLES
 
-Son aire = 4 π R²
-Son volume = (4 π R³)/3
+rayon R est un nombre décimal
+
+angle A est un nombre décimal
+
+aire est un nombre décimal
 
 
-**VARIABLES**
+TRAITEMENT:
 
-```
-sphereAire 
+    Lire rayon R
 
-sphereVolume
+    Lire angle A
 
-rayon
-```
+    aire <-- (π R² A) / 360
 
-**TRAITEMENT**
 
-```
-Saisir sphereAire = 
+RESULTAT
 
+    ECRIRE "L'air du secteur circulaire = ", air,
 
