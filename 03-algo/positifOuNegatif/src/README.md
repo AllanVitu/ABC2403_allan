@@ -7,10 +7,13 @@ Pour information, le nombre 0 est considéré positif.
 
 ## Algorithme
 
+```
 **VARIABLES**
 
 nombreEntier est un ENTIER
+```
 
+```
 **TRAITEMENT**
 
 ECRIRE "Saisissez un nombre entier
@@ -26,13 +29,15 @@ SINON ALORS
 	ECRIRE " Ce nombre est négatif"
 
 FIN SI
+```
 
 
-
-// Alternative
+```
+***Alternative***
 
 SI nombreEntier >= 0 /  SUPIRIEUR OU EGAL 0
 	ECRIRE "Ce nombre est négatif"
 
 SINON ALORS
 	ECRIRE " Ce nombre est positif"
+```
