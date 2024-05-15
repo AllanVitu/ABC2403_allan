@@ -4,9 +4,15 @@ public class App {
 
 	public App()
 	{
-		int i = 0;
 		
-		while(i < 10) {
+		//COURS BOUCLE JAVA
+		
+		//EXEMPLE POUR FAIRE UN BOUCLE
+		
+		
+		int i = 100;
+		
+		while(i <= 10) {
 			System.out.println("i vaut " + i);
 		}
 		
@@ -16,8 +22,18 @@ public class App {
 		do {
 			System.out.println("i vaut " + i);
 			i++;
-		}while(i < 10);
-	
+		}while(i <= 10);
+		
+		
+		
+		
+		
+		int j = 0;
+		
+		for(j = 0; j <= 10; j++) {
+			System.out.println("i vaut " + j);
+		}
+		
 
 	}
 
