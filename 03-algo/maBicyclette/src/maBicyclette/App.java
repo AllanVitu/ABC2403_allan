@@ -26,6 +26,26 @@ public class App {
 		if (veloOk == true) {
 			
 		}
+			
+		else {
+			System.out.println("Jevais chez le garagiste");
+		 }
+		
+		if (reparationsImmediate = false) {
+			
+		}
+		
+		else {
+			System.out.println("Jirai ceuillir des joncs");
+		}
+		
+		else {
+			System.out.println("");
+		}
+		
+		if(livrePossede = false) {
+			
+		}
 
 
 	}
