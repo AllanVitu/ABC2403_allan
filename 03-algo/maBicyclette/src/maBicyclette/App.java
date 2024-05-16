@@ -39,12 +39,8 @@ public class App {
 			System.out.println("Jirai ceuillir des joncs");
 		}
 		
-		else {
-			System.out.println("");
-		}
-		
 		if(livrePossede = false) {
-			
+			System.out.println("Lecture de ASOIAF dans le fauteil");
 		}
 
 
