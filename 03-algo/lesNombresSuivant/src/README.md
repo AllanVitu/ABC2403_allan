@@ -23,7 +23,11 @@ TRAITEMENT
 ECRIRE "Entrez un nombre : "
 
 TANT QUE
-		plusDix <= 10  
+		plusDix <= 10
+			ECRIRE "nombreUtilisateur + plusDix + " " "
+				plusDix++	
+				
+FIN TANT QUE
 
 
 
