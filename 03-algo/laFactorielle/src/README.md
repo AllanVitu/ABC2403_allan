@@ -23,3 +23,11 @@ TRAITEMENT
 ECRIRE "Saisissez un nombre de départ"
 	LIRE nombreUtilisateur
 	
+POUR (i = 1 | i <= nombreUtilisateur | i++
+	ALORS sommeFactorielle *= i
+	
+ECRIRE "La factorielle de " + nombreUtilisateur + " est " + sommeFactorielle
+
+FIN POUR
+```
+	
