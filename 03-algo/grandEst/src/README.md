@@ -37,3 +37,4 @@ SI nombreUtilisateur > plusGrand
 FIN POUR
 
 		ECRIRE "Le plus grand des nombres saisis est : ", plusGrand"
+```
