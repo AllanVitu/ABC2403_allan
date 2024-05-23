@@ -26,8 +26,8 @@ ECRIRE "Saisissez un nombre de départ"
 POUR (i = 1 | i <= nombreUtilisateur | i++
 	ALORS sommeFactorielle *= i
 	
-ECRIRE "La factorielle de " + nombreUtilisateur + " est " + sommeFactorielle
-
 FIN POUR
+	
+ECRIRE "La factorielle de " + nombreUtilisateur + " est " + sommeFactorielle
 ```
 	
