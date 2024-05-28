@@ -15,6 +15,7 @@ public class App {
 		int p = 2;
 		
 		int X = App.calculerFactorielle(n) / App.calculerFactorielle((n -p));
+		
 
 	}
 	
