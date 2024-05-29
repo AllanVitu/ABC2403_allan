@@ -1,0 +1,9 @@
+```
+VARIABLES
+
+valeursUtilisateur
+
+valeursPositif
+
+valeursNegatif
+``` 
