@@ -14,7 +14,7 @@ public class App {
 		
 		tab2 = new int[] { 3, 6};// Initialization du 2nd Tableau
 		
-		for(int i =0; i < tab.length; i++) {
+		for(int i = 0; i < tab.length; i++) {
 			
 			for(int j =0; j < tab2.length; j++) {
 				
