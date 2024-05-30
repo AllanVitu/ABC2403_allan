@@ -19,12 +19,13 @@ public class App {
 		
 		tab2 = new int[tab.length + 1];	
 		
-		newTab = sc.nextInt();
-		
 		System.out.println("Saisissez une valeur à ajouter");
+		
+		newTab = sc.nextInt();
 		
 		for(int i = 0; i < tab2.length; i++ ) {
 			tab2[i] = tab[i];
+			
 			tab2[tab.length] = newTab;
 		}
 		
