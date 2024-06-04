@@ -8,9 +8,6 @@ public class App {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		float bannanes = 2.99;
-		
-		float carottes = 1.99;
 		
 		
 		
