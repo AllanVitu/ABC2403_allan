@@ -80,4 +80,47 @@ public class Bouteille {
 		
 		return open;
 	}
+	
+	public boolean estPleines() {
+		
+		boolean plein;
+		
+		if(this.contenuEnL == this.contenanceEnL) {
+		
+			plein = true;
+		
+		} else plein = false;
+		
+		return plein;
+	}
+	public boolean fermeture() {
+		
+		boolean fermetureOn;
+		
+		if(this.ouvert == true) {
+			
+			fermetureOn = true;
+			
+			this.ouvert = false;
+		}
+		
+		return this.ouvert;
+	}
+	
+	public boolean ouverture() {
+		
+		boolean ouvertureOn;
+		
+		if(this.ouvert == false) {
+			
+			ouvertureOn = true;
+			
+			this.ouvert = true;
+		}
+		
+		return this.ouvert;
+	
+	}
+
 }
+

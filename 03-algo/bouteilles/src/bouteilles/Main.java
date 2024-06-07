@@ -10,7 +10,15 @@ public class Main {
 		
 		Bouteille bouteille3 = new Bouteille(bouteille2);
 		
-		float contenanceEnCLDeBouteille2 = bouteille2.donneContenanceEnCL();				
+		float contenanceEnCLDeBouteille2 = bouteille2.donneContenanceEnCL();
+		
+		System.out.println(bouteille2.estPleine());
+		
+		System.out.println(bouteille2.fermeture());
+		
+		System.out.println(bouteille2.ouverture());
+		
+
 
 		
 		
