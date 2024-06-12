@@ -72,16 +72,16 @@ public class Bouteille {
 		return result;
 	}
 	
-	public boolean estPleine() {
+	public Boolean estPleine() {
 		
-		boolean open;
+		Boolean open;
 		
 		open = this.ouvert;
 		
 		return open;
 	}
 	
-	public boolean estPleines() {
+	public Boolean estPleines() {
 		
 		boolean plein;
 		
@@ -89,38 +89,27 @@ public class Bouteille {
 		
 			plein = true;
 		
-		} else plein = false;
-		
-		return plein;
-	}
-	public boolean fermeture() {
-		
-		boolean fermetureOn;
-		
-		if(this.ouvert == true) {
-			
-			fermetureOn = true;
-			
-			this.ouvert = false;
 		}
+	else plein = false;
 		
-		return this.ouvert;
-	}
-	
-	public boolean ouverture() {
-		
-		boolean ouvertureOn;
-		
-		if(this.ouvert == false) {
-			
-			ouvertureOn = true;
-			
-			this.ouvert = true;
-		}
-		
-		return this.ouvert;
-	
+	return plein;
 	}
 
+	public Boolean remplir(float quantite) {
+		
+		Boolean retour = false;
+		
+		if(this.ouvert && quantite <= (this.contenanceEnL - this.contenuEnL)) {
+			
+			retour = true;
+			
+			contenuEnL += quantite;
+		}
+		
+		return retour;
+	}
+	
+	
+	
 }
-
+	
