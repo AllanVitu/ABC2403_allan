@@ -109,18 +109,56 @@ public class Bouteille {
 		return retour;
 	}
 	
-	public Boolean vider(float quantite) {
+	public Boolean laVider(float quantite) {
 		
-		Boolean retour = false;
+		Boolean retour;
 		
-		if(this.ouvert && quantite <= (this.))
+		if(this.contenanceEnL - quantite >= 0 && this.ouvert == true) {
 			
-		
-		
-		
+			this.contenanceEnL -= quantite;
+			
+			retour = true;
+		}
+		else {
+			retour = false;
+		}
+			
 		return retour;
 	}
 	
+	public boolean ouvrir() {
+		
+		boolean retour;
+		
+		if(this.ouvert == false) {
+			
+			this.ouvert = true;
+			
+			retour = true;
+		}
+		else {
+			
+			retour = false;
+		}
+		return retour;
+	}
 	
+	public boolean fermer() {
+		
+		boolean retour;
+		
+		if(this.ouvert == true) {
+			
+			this.ouvert = false;
+			
+			retour = true;
+		} 
+		else {
+			
+			retour = false;
+		}
+		
+		return retour;
+	}
 }
 	

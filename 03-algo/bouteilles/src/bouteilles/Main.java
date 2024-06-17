@@ -18,7 +18,15 @@ public class Main {
 		
 		float contenanceEnCLDeBouteille2 = bouteille2.donneContenanceEnCL();
  
+		float contenuEnCLDeBouteille2 = bouteille2.donneContenanceEnCL();
 		
+		boolean bouteilleRempli = bouteille2.remplir(1.2f);
+		
+		boolean bouteilleVide = bouteille2.laVider(1.5f);
+		
+		boolean bouteilleOuvert = bouteille2.ouvrir();
+		
+		boolean bouteilleFermer = bouteille2.fermer();
 	}
 
 }
