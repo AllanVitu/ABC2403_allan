@@ -46,7 +46,7 @@ public class Bouteille {
 	
 	//Constructor par recopie oude clonage
 	
-	public Bouteille(Bouteille _bouteilleARecopier) {
+	public Bouteille(Bouteille _bouteilleARecopier) { // pourquoi recopier mes paramettres bouteille?
 		
 		this.contenanceEnL = _bouteilleARecopier.contenanceEnL;
 		
@@ -99,7 +99,7 @@ public class Bouteille {
 		
 		Boolean retour = false;
 		
-		if(this.ouvert && quantite <= (this.contenanceEnL - this.contenuEnL)) {
+		if(this.ouvert && quantite <= (this.contenanceEnL - this.contenuEnL)) { // Pourquoi faire?
 			
 			retour = true;
 			
@@ -113,7 +113,7 @@ public class Bouteille {
 		
 		Boolean retour;
 		
-		if(this.contenanceEnL - quantite >= 0 && this.ouvert == true) {
+		if(this.contenanceEnL - quantite >= 0 && this.ouvert == true) {     // == est une comparaison
 			
 			this.contenanceEnL -= quantite;
 			
