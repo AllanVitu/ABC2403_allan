@@ -6,12 +6,12 @@ public class Main {
 		
 		int[] tab;
 		
-		tab = new int[] {1, 2, 3, 4, 5};
+		tab = new int[] {56, 30, 15, 1, 5};
 		
-		int chiffre = 3;
+		int chiffre = 1;
 		
 		
-		boolean result = Main.chercheChiffre(tab, 3);
+		boolean result = Main.chercheChiffre(tab, 1);
 	}
 	
 	
