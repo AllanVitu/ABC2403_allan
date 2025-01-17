@@ -31,7 +31,7 @@ public class App {
 		int j = 0;
 		
 		for(j = 0; j <= 10; j++) {
-			System.out.println("i vaut " + j);
+			System.out.println("j vaut " + j);
 		}
 		
 
